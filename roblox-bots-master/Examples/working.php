@@ -16,6 +16,6 @@
 		file_put_contents($cookieTime,time());
 	}
 	list($ranks,$roles) = getRoleSets($group);
-	echo updateRank($group,2470023,13,$cookie,$ranks,$roles);
+	echo updateRank($group,4235886,13,$cookie,$ranks,$roles);
 	// Update rank in group $group of user 2470023 to rank 13 using cookie file $cookie, ranks array $ranks, and roles array $roles.
 ?>
